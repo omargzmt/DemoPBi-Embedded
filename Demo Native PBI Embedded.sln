@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo Native PBI Embedded", "Demo Native PBI Embedded\Demo Native PBI Embedded.csproj", "{86CEEAB2-C1D4-4984-82A5-F7F447F26BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86CEEAB2-C1D4-4984-82A5-F7F447F26BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CEEAB2-C1D4-4984-82A5-F7F447F26BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CEEAB2-C1D4-4984-82A5-F7F447F26BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CEEAB2-C1D4-4984-82A5-F7F447F26BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D009BFD-F5FF-414B-A029-C3C5B8BD6592}
+	EndGlobalSection
+EndGlobal
