@@ -89,7 +89,6 @@ namespace Demo_Native_PBI_Embedded
 
                         embedurl.Value = report.embedUrl;
                         ReportId.Value = report.id;
-                        titulo.InnerText = report.name;
                     }
                 }
             }

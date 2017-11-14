@@ -41,7 +41,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-fixed-top" style="border: 1px solid #808080;">
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" runat="server" href="~/">Embedded PowerBI Demo</a>
@@ -54,11 +54,9 @@
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
+        
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
 
     </form>
 </body>

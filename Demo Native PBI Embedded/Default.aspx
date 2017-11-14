@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Demo_Native_PBI_Embedded._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">    
+<asp:Content ID="BodyContentA" ContentPlaceHolderID="MainContent" runat="server">    
     <script type="text/javascript" src="Scripts/powerbi.js"></script>
     <script type="text/javascript">
         window.onload = function () {
@@ -20,7 +20,7 @@
                 embedUrl: embedUrl,
                 id: reportId,
                 settings: {
-                    filterPaneEnabled: true,
+                    filterPaneEnabled: false,
                     navContentPaneEnabled: true
                 }
             };
@@ -56,11 +56,10 @@
     <asp:HiddenField ID="embedurl" runat="server" />
     <asp:HiddenField ID="ReportId" runat="server" />
 
-    <div class="container">
-        <h4 id="titulo" runat="server"></h4>
-        <div class="row col-md-12 reporte">
-            <div ID="reportContainer"></div>
-        </div>
+    <%--<h4 id="titulo" runat="server" style="display:none"></h4>--%>
+
+    <div class="embed-responsive">
+        <div ID="reportContainer" class="embed-responsive-item" style="height:92vh"></div>
     </div>
 
 </asp:Content>
