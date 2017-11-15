@@ -157,6 +157,7 @@
     <None Include="Properties\PublishProfiles\DemoNativePBIEmbedded - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\icon1.png" />
+    <Content Include="Images\image003.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

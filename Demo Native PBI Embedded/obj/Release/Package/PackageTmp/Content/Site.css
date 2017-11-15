@@ -30,12 +30,6 @@ textarea {
     }
 }
 
-.btn-gris {
-    color: #fff;
-    background-color: #808080;
-    border-color: #000;
-}
-
     .btn-gris:hover, .btn-gris:focus {
         color: #fff;
         background-color: #a7a7a7;
@@ -44,4 +38,13 @@ textarea {
 
 .reporte {
     position:relative;
+}
+
+#divContainer  {
+    border: none;
+}
+
+#reportContainer {
+    height: 91vh;
+    border: none;
 }

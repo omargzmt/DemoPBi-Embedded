@@ -58,8 +58,8 @@
 
     <%--<h4 id="titulo" runat="server" style="display:none"></h4>--%>
 
-    <div class="embed-responsive">
-        <div ID="reportContainer" class="embed-responsive-item" style="height:92vh"></div>
+    <div id="divContainer" class="embed-responsive">
+        <div ID="reportContainer" class="embed-responsive-item"></div>
     </div>
 
 </asp:Content>
