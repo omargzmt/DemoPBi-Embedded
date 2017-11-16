@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Demo PBI Embedded</title>
     <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/Login.css" rel="stylesheet" type="text/css" />
     <link href="../Images/icon1.png" rel="icon" />
     <style>
         .btn-gris {

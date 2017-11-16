@@ -7,13 +7,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <title>Demo</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="Images/icon1.png" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/Site.css" rel="stylesheet" type="text/css" />
 
@@ -40,23 +40,44 @@
                 <%--Scripts del sitio--%>
             </Scripts>
         </asp:ScriptManager>
+        <asp:UpdatePanel ID="up1" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="false">
+            <Triggers>
+                <asp:PostBackTrigger ControlID="linkDELL" />
+                <asp:PostBackTrigger ControlID="linkHat" />
+            </Triggers>
+            <ContentTemplate>
+                <div class="navbar navbar-fixed-top" style="border: 1px solid #808080; height:100px;">
+                    <div class="row" style="width:100%;">
+                        <div class="navbar-collapse collapse navbar-left">
+                            <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/image003.jpg" Height="99px"/>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                    
+                            <p class="nav navbar-text navbar-right" style="margin-top:38px;">Hola, <asp:LoginName runat="server" />!
+                                [<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar Sesión" LogoutPageUrl="~/Account/Login.aspx" />]
+                            </p>
 
-        <div class="navbar navbar-inverse navbar-fixed-top" style="border: 1px solid #808080;">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" runat="server" href="~/">Embedded PowerBI Demo</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <p class="nav navbar-text navbar-right">Hola, <asp:LoginName runat="server" />!
-                        [<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar Sesión" LogoutPageUrl="~/Account/Login.aspx" />]
-                    </p>
+                            <div class="nav navbar-text navbar-right" style="margin-top:12px;">
+                                <asp:LinkButton ID="linkDELL" runat="server" CssClass="btn btn-default btn-sm" Text="" style="text-align:end" OnClick="linkDELL_Click">
+                                    <asp:Image ID="imgbtn1" runat="server" Width="60px" ImageUrl="~/Images/carpolice1.png" AlternateText="Patrulla" ImageAlign="TextTop"/>
+                                </asp:LinkButton>
+                            </div>
 
+                            <div class="nav navbar-text navbar-right" style="margin-top:12px;">
+                                <asp:LinkButton ID="linkHat" runat="server" CssClass="btn btn-default btn-sm" style="text-align:end" OnClick="linkHat_Click">
+                                    <asp:Image ID="Image1" runat="server" Width="60px" ImageUrl="~/Images/Dell_Logo.png" AlternateText="Dell" ImageAlign="TextTop"/>
+                                </asp:LinkButton>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+
         
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        </asp:ContentPlaceHolder>
 
     </form>
 </body>

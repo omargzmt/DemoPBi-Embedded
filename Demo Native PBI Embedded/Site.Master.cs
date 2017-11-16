@@ -13,5 +13,25 @@ namespace Demo_Native_PBI_Embedded
         {
 
         }
+
+        protected void linkDELL_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Default.aspx");
+        }
+
+        protected void linkHat_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/DellReport.aspx");
+        }
+
+        //protected void linkHat_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/DellReport.aspx");
+        //}
+
+        //protected void linkDELL_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/Default.aspx");
+        //}
     }
 }

@@ -2,18 +2,20 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div style="width: 100%;height:100vh;">
-        <div style="position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);">
-            <div class="col-md-offset-3" style="background-color: #160a64; width:50%; color:white;">
-                <table style="width:100%;">
+    <div class="mainContainer">
+        <div class="LogForm">
+            <div class="col-md-offset-2" style="width:65%;">
+                <table class="tabla">
                     <tr>
-                        <td>
-                            <asp:Image ID="img1" runat="server" ImageUrl="~/Images/image003.jpg"/>
+                        <td width="60%;" align="right">
+                            <div>
+                                <asp:Image ID="img1" runat="server" ImageUrl="~/Images/image004.png" Width="100%" Height="100%"/>
+                            </div>
                         </td>
-                        <td>
+                        <td class="logFieldsContainer" align="center">
                             <div class="form-group row">
                                 <div class="col-sm-7 col-sm-offset-4" style="text-align:right; margin-bottom:2em; margin-top:1em;">
-                                    <asp:Label ID="lblVersion" runat="server" Text="Versión 8.0000001" Font-Bold="true" ForeColor="#666666" Width="100%"></asp:Label>
+                                    <asp:Label ID="lblVersion" runat="server" Text="Versión 8.00017" Font-Bold="true" ForeColor="#999999" Width="100%"></asp:Label>
                                 </div>
                             </div>
                             <div class="form-group row" style="margin-top:2em;">
@@ -35,8 +37,8 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <div class="col-sm-5 col-sm-offset-6">
-                                    <asp:Button ID="btnEntrar" runat="server" CssClass="btn btn-default btn-sm" Text="Entrar" OnClick="btnEntrar_Click" Width="100%"/>
+                                <div class="col-sm-6 col-sm-offset-5">
+                                    <asp:Button ID="btnEntrar" runat="server" CssClass="btn btn-default btn-sm" Text="Iniciar sesión" OnClick="btnEntrar_Click" Width="100%"/>
                                 </div>
                             </div>
                         </td>
@@ -46,29 +48,5 @@
         </div>
         <%--<asp:Image ID="img1" runat="server" ImageUrl="~/Images/image003.jpg" style="margin-left:-15px"/>--%>
         
-    </div>
-    
-    <div class="container" style="display:none;">
-        
-        <div style="position:absolute; left: 40%; top:10%; display:none;">
-            
-            
-
-            <div style="border: 1px solid #808080; border-radius: 10px 10px; padding:10px; display:none">
-                <div class="row">
-                    <div class="form-group col-md-12">
-                        
-                    </div>
-                    <div class="form-group col-md-12">
-                        
-                    </div>
-                </div>
-                <div>
-                    <center>
-                        
-                    </center>
-                </div>
-            </div>
-        </div>        
     </div>
 </asp:Content>

@@ -1,6 +1,5 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 html, body {
-    padding-top: 28px;
     height:100%;
 }
 
@@ -45,6 +44,9 @@ textarea {
 }
 
 #reportContainer {
-    height: 91vh;
+    height: 85vh;
+    width:100%;
     border: none;
+    top: 100px;
+    position:fixed;
 }

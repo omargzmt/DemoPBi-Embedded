@@ -42,47 +42,47 @@ C:\Users\Omar\Documents\Visual Studio 2017\Projects\Demo Native PBI Embedded\Dem
 C:\Users\Omar\Documents\Visual Studio 2017\Projects\Demo Native PBI Embedded\Demo Native PBI Embedded\bin\Microsoft.Rest.ClientRuntime.dll
 C:\Users\Omar\Documents\Visual Studio 2017\Projects\Demo Native PBI Embedded\Demo Native PBI Embedded\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
 C:\Users\Omar\Documents\Visual Studio 2017\Projects\Demo Native PBI Embedded\Demo Native PBI Embedded\bin\Microsoft.Rest.ClientRuntime.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\ApplicationInsights.config
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Demo Native PBI Embedded.dll.config
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Demo Native PBI Embedded.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Demo Native PBI Embedded.pdb
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Antlr3.Runtime.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\AspNet.ScriptManager.bootstrap.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\AspNet.ScriptManager.jQuery.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.Web.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ApplicationInsights.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AspNet.FriendlyUrls.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.PowerBI.Api.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.Rest.ClientRuntime.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ScriptManager.MSAjax.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ScriptManager.WebForms.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Newtonsoft.Json.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\System.Web.Optimization.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\WebGrease.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.Rest.ClientRuntime.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Newtonsoft.Json.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\System.Web.Optimization.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Antlr3.Runtime.pdb
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AspNet.FriendlyUrls.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ApplicationInsights.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.Web.xml
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\es\System.Web.Optimization.resources.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.csprojResolveAssemblyReference.cache
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.csproj.CoreCompileInputs.cache
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.dll
-C:\Users\thsd-omar\Source\Repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.pdb
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\ApplicationInsights.config
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Demo Native PBI Embedded.dll.config
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Demo Native PBI Embedded.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Demo Native PBI Embedded.pdb
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Antlr3.Runtime.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.Web.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ApplicationInsights.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.PowerBI.Api.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Newtonsoft.Json.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\System.Web.Optimization.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\WebGrease.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Newtonsoft.Json.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\System.Web.Optimization.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Antlr3.Runtime.pdb
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.ApplicationInsights.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\Microsoft.AI.Web.xml
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\es\System.Web.Optimization.resources.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.csproj.CoreCompileInputs.cache
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.dll
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.pdb
+C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.csprojResolveAssemblyReference.cache

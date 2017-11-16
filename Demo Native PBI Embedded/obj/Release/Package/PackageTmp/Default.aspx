@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Demo_Native_PBI_Embedded._Default" %>
+﻿<%@ Page Title="Huxquilucan" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Demo_Native_PBI_Embedded._Default" %>
 
 <asp:Content ID="BodyContentA" ContentPlaceHolderID="MainContent" runat="server">    
     <script type="text/javascript" src="Scripts/powerbi.js"></script>

@@ -1,6 +1,5 @@
-﻿<%@ Page Title="Huxquilucan" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Demo_Native_PBI_Embedded._Default" %>
-
-<asp:Content ID="BodyContentA" ContentPlaceHolderID="MainContent" runat="server">    
+﻿<%@ Page Title="Dell" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DellReport.aspx.cs" Inherits="Demo_Native_PBI_Embedded.DellReport" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript" src="Scripts/powerbi.js"></script>
     <script type="text/javascript">
         window.onload = function () {
@@ -61,5 +60,4 @@
     <div id="divContainer" class="embed-responsive">
         <div ID="reportContainer" class="embed-responsive-item"></div>
     </div>
-
 </asp:Content>
