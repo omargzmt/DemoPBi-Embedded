@@ -1,65 +1,42 @@
-﻿<%@ Page Title="Huxquilucan" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Demo_Native_PBI_Embedded._Default" %>
+﻿<%@ Page Title="4E México" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Demo_Native_PBI_Embedded._Default" %>
 
 <asp:Content ID="BodyContentA" ContentPlaceHolderID="MainContent" runat="server">    
-    <script type="text/javascript" src="Scripts/powerbi.js"></script>
-    <script type="text/javascript">
-        window.onload = function () {
-            var accessToken = document.getElementById('MainContent_accessToken').value;
+    
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-1.11.3.min.js"></script>
+    <div style="margin-top: 250px; margin-bottom:20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-4">
+                    <a href="Efectividad.aspx" class="thumbnail">
+                        <img src="Images/Efectividad.png" alt="...">
+                    </a>
+                </div>
 
-            if (!accessToken || accessToken == "")
-            {
-                return;
-            }
+                <div class="col-xs-6 col-md-4">
+                    <a href="Disponibilidad.aspx" class="thumbnail">
+                        <img src="Images/Disponibilidad.png" alt="...">
+                    </a>
+                </div>
 
-            var embedUrl = document.getElementById('MainContent_embedurl').value;
-            var reportId = document.getElementById('MainContent_ReportId').value;
-            
-            var config= {
-                type: 'report',
-                accessToken: accessToken,
-                embedUrl: embedUrl,
-                id: reportId,
-                settings: {
-                    filterPaneEnabled: false,
-                    navContentPaneEnabled: true
-                }
-            };
-
-            // Grab the reference to the div HTML element that will host the report.
-            var reportContainer = document.getElementById('reportContainer');
-
-            // Embed the report and display it within the div container.
-            var report = powerbi.embed(reportContainer, config);
-
-            // Report.on will add an event handler which prints to Log window.
-            report.on("loaded", function () {
-                var logView = document.getElementById('logView');
-                logView.innerHTML = logView.innerHTML + "Loaded<br/>";
-
-                // Report.off removes a given event handler if it exists.
-                report.off("loaded");
-            });
-
-            // Report.on will add an event handler which prints to Log window.
-            report.on("rendered", function () {
-                var logView = document.getElementById('logView');
-                logView.innerHTML = logView.innerHTML + "Rendered<br/>";
-
-                // Report.off removes a given event handler if it exists.
-                report.off("rendered");
-            });
-        };
-
-    </script>
-
-    <asp:HiddenField ID="accessToken" runat="server" />
-    <asp:HiddenField ID="embedurl" runat="server" />
-    <asp:HiddenField ID="ReportId" runat="server" />
-
-    <%--<h4 id="titulo" runat="server" style="display:none"></h4>--%>
-
-    <div id="divContainer" class="embed-responsive">
-        <div ID="reportContainer" class="embed-responsive-item"></div>
+                <div class="col-xs-6 col-md-4">
+                    <a href="Precio.aspx" class="thumbnail">
+                        <img src="Images/Precio.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <a href="Exhibiciones.aspx" class="thumbnail">
+                        <img src="Images/Exhibiciones.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <a href="Galeria.aspx" class="thumbnail">
+                        <img src="Images/Galeria.png" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-
+    
+    
 </asp:Content>

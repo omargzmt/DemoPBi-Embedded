@@ -145,9 +145,12 @@
     <Content Include="Content\Login.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="DellReport.aspx" />
+    <Content Include="Disponibilidad.aspx" />
+    <Content Include="Efectividad.aspx" />
+    <Content Include="Exhibiciones.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Galeria.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -156,22 +159,23 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Account\Login.Master" />
-    <None Include="Properties\PublishProfiles\DemoNativePBIEmbedded - Web Deploy.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\carpolice1.png" />
     <Content Include="Images\Dell_Logo.png" />
+    <Content Include="Images\Disponibilidad.png" />
+    <Content Include="Images\Efectividad.png" />
+    <Content Include="Images\Exhibiciones.png" />
+    <Content Include="Images\Galeria.png" />
     <Content Include="Images\hat1.jpg" />
     <Content Include="Images\icon1.png" />
     <Content Include="Images\image004.png" />
+    <Content Include="Images\image005.png" />
+    <Content Include="Images\Precio.png" />
+    <Content Include="Precio.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\powerbi.js" />
-    <Content Include="Scripts\powerbi.min.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\jquery-1.11.3.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -223,15 +227,50 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DellReport.aspx.cs">
-      <DependentUpon>DellReport.aspx</DependentUpon>
+    <Compile Include="Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DellReport.aspx.designer.cs">
-      <DependentUpon>DellReport.aspx</DependentUpon>
+    <Compile Include="Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Disponibilidad.aspx.cs">
+      <DependentUpon>Disponibilidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Disponibilidad.aspx.designer.cs">
+      <DependentUpon>Disponibilidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Efectividad.aspx.cs">
+      <DependentUpon>Efectividad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Efectividad.aspx.designer.cs">
+      <DependentUpon>Efectividad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exhibiciones.aspx.cs">
+      <DependentUpon>Exhibiciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Exhibiciones.aspx.designer.cs">
+      <DependentUpon>Exhibiciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Galeria.aspx.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Galeria.aspx.designer.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Precio.aspx.cs">
+      <DependentUpon>Precio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Precio.aspx.designer.cs">
+      <DependentUpon>Precio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -260,8 +299,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.Master" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Properties\PublishProfiles\Demo4EMexico - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

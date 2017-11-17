@@ -85,4 +85,3 @@ C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\bin\es
 C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.csproj.CoreCompileInputs.cache
 C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.dll
 C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.pdb
-C:\Users\thsd-omar\source\repos\DemoPBi-Embedded\Demo Native PBI Embedded\obj\Debug\Demo Native PBI Embedded.csprojResolveAssemblyReference.cache

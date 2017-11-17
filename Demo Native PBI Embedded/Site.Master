@@ -7,11 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo</title>
-
-    <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/modernizr") %>
-    </asp:PlaceHolder>
+    <title>Demo 4E México</title>
 
     <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="Images/icon1.png" rel="shortcut icon" type="image/x-icon" />
@@ -20,11 +16,11 @@
 </head>
 <body>
     <form runat="server">
-        <asp:ScriptManager runat="server">
-            <Scripts>
+<%--        <asp:ScriptManager runat="server">
+            <Scripts>--%>
                 <%--Para obtener más información sobre la unión de scripts en ScriptManager, consulte https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Scripts de marco--%>
-                <asp:ScriptReference Name="MsAjaxBundle" />
+<%--                <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
                 <asp:ScriptReference Name="bootstrap" />
                 <asp:ScriptReference Name="respond" />
@@ -36,48 +32,58 @@
                 <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-                <asp:ScriptReference Name="WebFormsBundle" />
+                <asp:ScriptReference Name="WebFormsBundle" />--%>
                 <%--Scripts del sitio--%>
-            </Scripts>
-        </asp:ScriptManager>
-        <asp:UpdatePanel ID="up1" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="false">
-            <Triggers>
-                <asp:PostBackTrigger ControlID="linkDELL" />
-                <asp:PostBackTrigger ControlID="linkHat" />
-            </Triggers>
-            <ContentTemplate>
-                <div class="navbar navbar-fixed-top" style="border: 1px solid #808080; height:100px;">
-                    <div class="row" style="width:100%;">
-                        <div class="navbar-collapse collapse navbar-left">
-                            <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/image003.jpg" Height="99px"/>
-                        </div>
-                        <div class="navbar-collapse collapse">
-                    
-                            <p class="nav navbar-text navbar-right" style="margin-top:38px;">Hola, <asp:LoginName runat="server" />!
-                                [<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar Sesión" LogoutPageUrl="~/Account/Login.aspx" />]
-                            </p>
-
-                            <div class="nav navbar-text navbar-right" style="margin-top:12px;">
-                                <asp:LinkButton ID="linkDELL" runat="server" CssClass="btn btn-default btn-sm" Text="" style="text-align:end" OnClick="linkDELL_Click">
-                                    <asp:Image ID="imgbtn1" runat="server" Width="60px" ImageUrl="~/Images/carpolice1.png" AlternateText="Patrulla" ImageAlign="TextTop"/>
-                                </asp:LinkButton>
-                            </div>
-
-                            <div class="nav navbar-text navbar-right" style="margin-top:12px;">
-                                <asp:LinkButton ID="linkHat" runat="server" CssClass="btn btn-default btn-sm" style="text-align:end" OnClick="linkHat_Click">
-                                    <asp:Image ID="Image1" runat="server" Width="60px" ImageUrl="~/Images/Dell_Logo.png" AlternateText="Dell" ImageAlign="TextTop"/>
-                                </asp:LinkButton>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                </asp:ContentPlaceHolder>
-            </ContentTemplate>
-        </asp:UpdatePanel>
-
+<%--            </Scripts>
+        </asp:ScriptManager>--%>
         
+        <script src="Scripts/jquery-1.11.3.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+
+        <nav class="navbar navbar-fixed-top navbar-light">
+            <div style="width:100%;">
+                <div class="navbar-header">
+			        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+			        </button>
+			        <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/image004.png" Height="100px"/>
+		        </div>
+
+                <div id="navbar" class="navbar-collapse collapse" style="height: 100px;">
+			        <ul class="nav nav-tabs navbar-right" style="position:absolute; bottom: 2px; right:15px;">
+                        <%--<li class="nav-item dropdown">
+					        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Efectividad<span class="caret"></span></a>
+					        <ul class="dropdown-menu">
+						        <li><a href="javascript:alerta()">Efectividad de visita</a></li>
+						        <li><a href="#">Tablas Efectividad</a></li>
+                                <li><a href="#">E. Tiempo Real</a></li>
+						        <li><a href="#">Tiempos</a></li>
+					        </ul>
+				        </li>--%>                       
+                        <li><a href="Efectividad.aspx">Efectividad</a></li>
+				        <li><a href="Disponibilidad.aspx">Disponibilidad</a></li>
+                        <li><a href="Precio.aspx">Precio</a></li>
+                        <li><a href="Exhibiciones.aspx">Exhibiciones</a></li>
+                        <li><a href="Galeria.aspx">Galeria</a></li>
+                        <li><asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar Sesión" BackColor="#6666ff" ForeColor="White" Font-Bold="true" LogoutPageUrl="~/Account/Login.aspx"/></li>
+			        </ul>
+		        </div>
+            </div>
+        </nav>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <script>
+
+        </script>
+        <%--<p class="nav navbar-text navbar-right" style="margin-top:38px;">Hola, <asp:LoginName runat="server" />!
+                                [<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar Sesión" LogoutPageUrl="~/Account/Login.aspx" />]
+                            </p>--%>
+        <%--<asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/image003.jpg" Height="99px"/>--%>
 
     </form>
 </body>
