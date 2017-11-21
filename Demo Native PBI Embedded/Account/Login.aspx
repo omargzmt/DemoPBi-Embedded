@@ -19,19 +19,21 @@
                                 </div>
                             </div>
                             <div class="form-group row" style="margin-top:2em;">
-                                <asp:Label ID="lblProyecto" runat="server" Text="Proyecto:" CssClass="col-sm-3 col-form-label"></asp:Label>
+                                <asp:Label ID="lblProyecto" runat="server" Text="Proyecto:" CssClass="col-sm-3 col-form-label" Font-Bold="true"></asp:Label>
                                 <div class="col-sm-8">
-                                    <asp:DropDownList ID="ddlproy" runat="server" CssClass="form-control-plaintext" Height="25px" Width="100%"></asp:DropDownList>
+                                    <asp:DropDownList ID="ddlproy" runat="server" CssClass="form-control-plaintext" Height="25px" Width="100%">
+                                        <asp:ListItem>4EMEXICO</asp:ListItem>
+                                    </asp:DropDownList>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <asp:Label ID="lblusr" runat="server" Text="Usuario:" CssClass="col-sm-3 col-form-label"></asp:Label>
+                                <asp:Label ID="lblusr" runat="server" Text="Usuario:" CssClass="col-sm-3 col-form-label" Font-Bold="true"></asp:Label>
                                 <div class="col-sm-8">
                                     <asp:TextBox ID="txtUsr" runat="server" CssClass="form-control-plaintext" Width="100%"></asp:TextBox>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <asp:Label ID="lblpass" runat="server" Text="Password:" CssClass="col-sm-3 col-form-label"></asp:Label>
+                                <asp:Label ID="lblpass" runat="server" Text="Password:" CssClass="col-sm-3 col-form-label" Font-Bold="true"></asp:Label>
                                 <div class="col-sm-8">
                                     <asp:TextBox ID="txtpass" runat="server" TextMode="Password" CssClass="form-control-plaintext" Width="100%"></asp:TextBox>
                                 </div>

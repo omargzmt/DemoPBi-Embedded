@@ -5,6 +5,8 @@
         window.onload = function () {
             var accessToken = document.getElementById('MainContent_accessToken').value;
 
+            SetActive('Disponibilidad');
+
             if (!accessToken || accessToken == "")
             {
                 return;

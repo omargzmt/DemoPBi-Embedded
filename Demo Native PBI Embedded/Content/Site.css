@@ -44,9 +44,20 @@ textarea {
 }
 
 #reportContainer {
-    height: 85vh;
+    height: 92vh;
     width:100%;
     border: none;
-    top: 100px;
+    top: 50px;
     position:fixed;
+}
+
+.active a {
+    background-color: #6666ff !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.btnCerrar:hover {
+    background-color: #ffffff;
+    color: black;
 }

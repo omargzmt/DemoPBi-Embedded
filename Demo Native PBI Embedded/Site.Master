@@ -10,7 +10,7 @@
     <title>Demo 4E México</title>
 
     <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="Images/icon1.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="Images/Logo4e.png" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/Site.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -49,26 +49,17 @@
 				        <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
 			        </button>
-			        <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/image004.png" Height="100px"/>
+			        <a href="Default.aspx"><asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/Logo4e.png" Height="45px" ToolTip="Inicio"/></a>
 		        </div>
 
-                <div id="navbar" class="navbar-collapse collapse" style="height: 100px;">
-			        <ul class="nav nav-tabs navbar-right" style="position:absolute; bottom: 2px; right:15px;">
-                        <%--<li class="nav-item dropdown">
-					        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Efectividad<span class="caret"></span></a>
-					        <ul class="dropdown-menu">
-						        <li><a href="javascript:alerta()">Efectividad de visita</a></li>
-						        <li><a href="#">Tablas Efectividad</a></li>
-                                <li><a href="#">E. Tiempo Real</a></li>
-						        <li><a href="#">Tiempos</a></li>
-					        </ul>
-				        </li>--%>                       
-                        <li><a href="Efectividad.aspx">Efectividad</a></li>
-				        <li><a href="Disponibilidad.aspx">Disponibilidad</a></li>
-                        <li><a href="Precio.aspx">Precio</a></li>
-                        <li><a href="Exhibiciones.aspx">Exhibiciones</a></li>
-                        <li><a href="Galeria.aspx">Galeria</a></li>
-                        <li><asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar Sesión" BackColor="#6666ff" ForeColor="White" Font-Bold="true" LogoutPageUrl="~/Account/Login.aspx"/></li>
+                <div id="navbar" class="navbar-collapse collapse" style="height: 45px;">
+			        <ul class="nav nav-tabs navbar-right" style="position:absolute; bottom: 2px; right:15px;border: 1px solid #05a3c7; border-radius: 5px 5px;height:44px;">
+                        <li id="efe"><a href="Efectividad.aspx">Efectividad</a></li>
+				        <li id="dis"><a href="Disponibilidad.aspx">Disponibilidad</a></li>
+                        <li id="pre"><a href="Precio.aspx">Precio</a></li>
+                        <li id="exh"><a href="Exhibiciones.aspx">Exhibiciones</a></li>
+                        <li id="gal"><a href="Galeria.aspx">Galeria</a></li>
+                        <li><asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="  Cerrar Sesión" BackColor="#cccccc" ForeColor="Black" Font-Bold="true" CssClass="btnCerrar" LogoutPageUrl="~/Account/Login.aspx"/></li>
 			        </ul>
 		        </div>
             </div>
@@ -78,7 +69,32 @@
         </asp:ContentPlaceHolder>
 
         <script>
+            function SetActive(page) {
+                $('#efe').removeClass('active');
+                $('#dis').removeClass('active');
+                $('#pre').removeClass('active');
+                $('#exh').removeClass('active');
+                $('#gal').removeClass('active');
 
+                switch (page) {
+                   
+                    case 'Efectividad':
+                        $('#efe').addClass('active');
+                        break;
+                    case 'Disponibilidad':
+                        $('#dis').addClass('active');
+                        break;
+                    case 'Precio':
+                        $('#pre').addClass('active');
+                        break;
+                    case 'Exhibiciones':
+                        $('#exh').addClass('active');
+                        break;
+                    case 'Galeria':
+                        $('#gal').addClass('active');
+                        break;
+                }
+            }
         </script>
         <%--<p class="nav navbar-text navbar-right" style="margin-top:38px;">Hola, <asp:LoginName runat="server" />!
                                 [<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar Sesión" LogoutPageUrl="~/Account/Login.aspx" />]

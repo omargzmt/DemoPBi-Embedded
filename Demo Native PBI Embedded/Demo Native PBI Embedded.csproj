@@ -169,6 +169,7 @@
     <Content Include="Images\icon1.png" />
     <Content Include="Images\image004.png" />
     <Content Include="Images\image005.png" />
+    <Content Include="Images\Logo4e.png" />
     <Content Include="Images\Precio.png" />
     <Content Include="Precio.aspx" />
     <Content Include="Scripts\bootstrap.js" />
