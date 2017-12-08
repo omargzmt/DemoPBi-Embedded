@@ -1,6 +1,6 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 html, body {
-    height:100%;
+    height: 100%;
 }
 
 /* Wrapping element */
@@ -29,35 +29,146 @@ textarea {
     }
 }
 
-    .btn-gris:hover, .btn-gris:focus {
-        color: #fff;
-        background-color: #a7a7a7;
-        border-color: #000;
-    }
-
-.reporte {
-    position:relative;
+.btn-gris:hover, .btn-gris:focus {
+    color: #fff;
+    background-color: #a7a7a7;
+    border-color: #000;
 }
 
-#divContainer  {
+.reporte {
+    position: relative;
+}
+
+#divContainer {
     border: none;
 }
 
 #reportContainer {
-    height: 92vh;
-    width:100%;
+    height: 87vh;
+    width: 80%;
     border: none;
-    top: 50px;
-    position:fixed;
+    top: 71px;
+    position: fixed;
 }
 
 .active a {
-    background-color: #6666ff !important;
-    color: #fff !important;
+    color: #257fee !important;
     font-weight: 600;
 }
 
 .btnCerrar:hover {
-    background-color: #ffffff;
-    color: black;
+    background-color: #a7a7a7 !important;
+    color: white !important;
+    border-radius: 5px 5px;
+}
+
+#navbar {
+    color: #808080;
+}
+
+    #navbar a {
+        padding: 10px;
+        color: #808080;
+    }
+
+        #navbar a:hover {
+            padding: 10px;
+            color: black;
+            border: 1px solid #a7a7a7;
+            border-radius: 5px 5px;
+            text-decoration: none;
+        }
+
+.menuLateral {
+    background: -moz-linear-gradient(top, rgba(214,214,214,0.65) 0%, rgba(197,197,197,0) 8%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(214,214,214,0.65) 0%,rgba(197,197,197,0) 8%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(214,214,214,0.65) 0%,rgba(197,197,197,0) 8%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d6d6d6', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    float: right;
+    width: 20%;
+    height: 89vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.navbarDash {
+    position: absolute;
+    right: 12px;
+    height: 70px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+@media (max-width: 760px) {
+    #navbar {
+        padding: 0px;
+        color: #808080;
+    }
+
+    .navbarDash {
+        font-size: 14px;
+        position: relative;
+        padding-top: -15px;
+        right: 0px;
+        height: 200px;
+        width: 100%;
+        background-color: #fff;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+        .navbarDash a {
+            margin-left: 10px;
+            border-bottom: 1px solid #a7a7a7;
+        }
+
+    #reportContainer {
+        height: 70vh;
+        width: 80%;
+        border: none;
+        top: 71px;
+        position: fixed;
+    }
+
+    .menuLateral {
+        height: 70vh;
+    }
+
+        .menuLateral p {
+            display: none;
+        }
+}
+
+@media (max-width: 550px) {
+    .navbarDash {
+        position: relative;
+        height: 200px;
+        padding-top: -15px;
+        right: 0px;
+        font-size: 14px;
+        width: 100%;
+        background-color: #fff;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+        .navbarDash a {
+            margin-left: 10px;
+        }
+
+    #reportContainer {
+        height: 70vh;
+        width: 80%;
+        border: none;
+        top: 71px;
+        position: fixed;
+    }
+
+    .menuLateral {
+        height: 70vh;
+    }
+
+        .menuLateral p {
+            display: none;
+        }
 }

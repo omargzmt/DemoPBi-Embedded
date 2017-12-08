@@ -9,7 +9,7 @@
                     <tr>
                         <td width="60%;" align="right">
                             <div>
-                                <asp:Image ID="img1" runat="server" ImageUrl="~/Images/image004.png" Width="100%" Height="100%"/>
+                                <asp:Image ID="img1" runat="server" ImageUrl="~/Images/image004.jpg" Width="100%" Height="100%"/>
                             </div>
                         </td>
                         <td class="logFieldsContainer" align="center">

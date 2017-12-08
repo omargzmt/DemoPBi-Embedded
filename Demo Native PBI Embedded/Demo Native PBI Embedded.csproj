@@ -159,24 +159,28 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Account\Login.Master" />
-    <Content Include="Images\carpolice1.png" />
-    <Content Include="Images\Dell_Logo.png" />
-    <Content Include="Images\Disponibilidad.png" />
-    <Content Include="Images\Efectividad.png" />
-    <Content Include="Images\Exhibiciones.png" />
-    <Content Include="Images\Galeria.png" />
-    <Content Include="Images\hat1.jpg" />
-    <Content Include="Images\icon1.png" />
-    <Content Include="Images\image004.png" />
+    <Content Include="Images\Disponibilidad.jpg" />
+    <Content Include="Images\efectividad-distancias.jpg" />
+    <Content Include="Images\efectividad-tablas.jpg" />
+    <Content Include="Images\efectividad-tiemporeal.jpg" />
+    <Content Include="Images\efectividad-tiempos.jpg" />
+    <Content Include="Images\Efectividad.jpg" />
+    <Content Include="Images\Exhibiciones.jpg" />
+    <Content Include="Images\Galeria.jpg" />
+    <Content Include="Images\image004.jpg" />
     <Content Include="Images\image005.png" />
     <Content Include="Images\Logo4e.png" />
-    <Content Include="Images\Precio.png" />
+    <Content Include="Images\Logo4eAncho.png" />
+    <Content Include="Images\MainMenu.jpg" />
+    <Content Include="Images\Precio.jpg" />
     <Content Include="Precio.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\powerbi.js" />
+    <Content Include="Scripts\powerbi.min.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -303,6 +307,7 @@
     <Content Include="Default.Master" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Demo4EMexico - Web Deploy.pubxml" />
+    <Content Include="Scripts\powerbi.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

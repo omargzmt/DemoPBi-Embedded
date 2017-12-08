@@ -9,13 +9,6 @@
     <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="../Content/Login.css" rel="stylesheet" type="text/css" />
     <link href="../Images/Logo4e.png" rel="icon" />
-    <style>
-        .btn-gris {
-            color: #fff;
-            background-color: #808080;
-            border-color: #000;
-        }
-    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
